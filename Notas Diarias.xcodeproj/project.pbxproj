@@ -7,9 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5896D663246682AF00B0634B /* ListarAnotacoesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5896D662246682AF00B0634B /* ListarAnotacoesTableViewController.swift */; };
+		5896D665246682EC00B0634B /* AnotacaoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5896D664246682EC00B0634B /* AnotacaoViewController.swift */; };
 		58EACEE22466427A00FB2F4B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58EACEE12466427A00FB2F4B /* AppDelegate.swift */; };
 		58EACEE42466427A00FB2F4B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58EACEE32466427A00FB2F4B /* SceneDelegate.swift */; };
-		58EACEE62466427A00FB2F4B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58EACEE52466427A00FB2F4B /* ViewController.swift */; };
 		58EACEE92466427A00FB2F4B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 58EACEE72466427A00FB2F4B /* Main.storyboard */; };
 		58EACEEC2466427A00FB2F4B /* Notas_Diarias.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 58EACEEA2466427A00FB2F4B /* Notas_Diarias.xcdatamodeld */; };
 		58EACEEE2466427F00FB2F4B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 58EACEED2466427F00FB2F4B /* Assets.xcassets */; };
@@ -17,10 +18,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5896D662246682AF00B0634B /* ListarAnotacoesTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListarAnotacoesTableViewController.swift; sourceTree = "<group>"; };
+		5896D664246682EC00B0634B /* AnotacaoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnotacaoViewController.swift; sourceTree = "<group>"; };
 		58EACEDE2466427A00FB2F4B /* Notas Diarias.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Notas Diarias.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		58EACEE12466427A00FB2F4B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		58EACEE32466427A00FB2F4B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		58EACEE52466427A00FB2F4B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		58EACEE82466427A00FB2F4B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		58EACEEB2466427A00FB2F4B /* Notas_Diarias.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Notas_Diarias.xcdatamodel; sourceTree = "<group>"; };
 		58EACEED2466427F00FB2F4B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -60,7 +62,8 @@
 			children = (
 				58EACEE12466427A00FB2F4B /* AppDelegate.swift */,
 				58EACEE32466427A00FB2F4B /* SceneDelegate.swift */,
-				58EACEE52466427A00FB2F4B /* ViewController.swift */,
+				5896D662246682AF00B0634B /* ListarAnotacoesTableViewController.swift */,
+				5896D664246682EC00B0634B /* AnotacaoViewController.swift */,
 				58EACEE72466427A00FB2F4B /* Main.storyboard */,
 				58EACEED2466427F00FB2F4B /* Assets.xcassets */,
 				58EACEEF2466427F00FB2F4B /* LaunchScreen.storyboard */,
@@ -141,9 +144,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				58EACEE62466427A00FB2F4B /* ViewController.swift in Sources */,
 				58EACEE22466427A00FB2F4B /* AppDelegate.swift in Sources */,
+				5896D665246682EC00B0634B /* AnotacaoViewController.swift in Sources */,
 				58EACEE42466427A00FB2F4B /* SceneDelegate.swift in Sources */,
+				5896D663246682AF00B0634B /* ListarAnotacoesTableViewController.swift in Sources */,
 				58EACEEC2466427A00FB2F4B /* Notas_Diarias.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
